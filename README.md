@@ -14,6 +14,15 @@
 
 ## Portfolio : [https://www.assist-infone.fr/](https://alexandregouraud.fr/)
 
+Branches
+----------------
+Branche | Description
+--- | ---
+[1.0](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/1.0) | Branche de production de la V1
+[test](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/test) | Branche pour les Tests CI/CD
+[development](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/development) | Branche de développements (à segmenter si besoin)
+[master](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/master) | Branche d'origine
+
 Programme et version
 ----------------
 Programme | Version | Contributeur | Description
