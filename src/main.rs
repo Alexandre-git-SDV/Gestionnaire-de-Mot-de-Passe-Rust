@@ -2,6 +2,10 @@ use std::io;
 use bcrypt::{hash, verify, DEFAULT_COST};
 use rpassword::read_password;
 
+mod DataAccess;
+use DataAccess::Entity::password::Password;
+
+
 fn condition() -> String { // Fonction qui gère la saisie des critères de mot de passe
     let mut valuser = String::new();
 
