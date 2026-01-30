@@ -12,7 +12,7 @@
   </tr>
 </table>
 
-## Portfolio : [https://www.assist-infone.fr/](https://alexandregouraud.fr/)
+## Portfolio : [https://alexandregouraud.fr/](https://alexandregouraud.fr/)
 
 Branches
 ----------------
