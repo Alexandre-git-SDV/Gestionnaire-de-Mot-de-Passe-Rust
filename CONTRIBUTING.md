@@ -7,6 +7,8 @@ This file defines the branch and commit conventions for the
 **Aegyx** repository. It applies to all
 contributors and is the reference for the development workflow.
 
+> Looking to report a security vulnerability instead? See the [Security Policy](SECURITY.md).
+
 ---
 
 ## Branch management
@@ -91,6 +93,8 @@ Ce fichier définit les règles de gestion des branches et des commits pour
 le dépôt **Aegyx**. Il s'applique à
 l'ensemble des contributeurs et constitue la référence pour le workflow
 de développement.
+
+> Vous souhaitez signaler une vulnérabilité de sécurité ? Consultez la [Politique de sécurité](SECURITY.md).
 
 ---
 

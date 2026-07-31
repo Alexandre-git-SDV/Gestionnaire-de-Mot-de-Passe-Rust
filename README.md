@@ -38,6 +38,7 @@ Contributions are welcome! Please read the following documents before opening a 
 
 - [Contributing Guide](CONTRIBUTING.md) — branch and commit conventions, contribution workflow
 - [Code of Conduct](CODE_OF_CONDUCT.md) — community guidelines
+- [Security Policy](SECURITY.md) — how to report a vulnerability
 
 ---
 ---
@@ -81,3 +82,4 @@ Les contributions sont les bienvenues ! Merci de lire les documents suivants ava
 
 - [Guide de contribution](CONTRIBUTING.md) — conventions de branches et de commits, processus de contribution
 - [Code de conduite](CODE_OF_CONDUCT.md) — règles de la communauté
+- [Politique de sécurité](SECURITY.md) — comment signaler une vulnérabilité

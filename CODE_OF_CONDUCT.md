@@ -45,6 +45,8 @@ reported to the maintainers by opening a confidential contact through the
 repository owner's GitHub profile. All complaints will be reviewed and
 investigated promptly and fairly.
 
+For security vulnerabilities, as opposed to conduct issues, please refer to our [Security Policy](SECURITY.md) instead.
+
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
@@ -101,6 +103,8 @@ Les cas de comportement abusif, de harcèlement ou autrement inacceptable
 peuvent être signalés aux mainteneurs en ouvrant un contact confidentiel
 via le profil GitHub du propriétaire du dépôt. Toutes les plaintes seront
 examinées et traitées rapidement et équitablement.
+
+Pour les vulnérabilités de sécurité, par opposition aux problèmes de conduite, merci de consulter notre [Politique de sécurité](SECURITY.md).
 
 ## Attribution
 
