@@ -1,0 +1,16 @@
+pub static TRANSLATIONS: &[(&str, &str)] = &[
+    ("condition.prompt", "Entrer les critères de votre mot de passe"),
+    ("condition.option.min_length", "Mot de passe de minimum 12 caractères"),
+    ("condition.option.digit", "1 chiffre minimum"),
+    ("condition.option.special", "1 caractère spécial minimum"),
+    ("condition.option.all", "Tous les critères précédents"),
+    ("condition.option.end", "Fin des critères"),
+    ("password.prompt", "Entrer votre mot de passe"),
+    ("password.min_length.invalid", "Le mot de passe doit contenir au moins 12 caractères."),
+    ("password.min_length.valid", "Mot de passe valide pour la longueur."),
+    ("password.digit.valid", "Le mot de passe contient au moins un chiffre."),
+    ("password.digit.invalid", "Le mot de passe doit contenir au moins un chiffre."),
+    ("password.special.valid", "Le mot de passe contient au moins un caractère spécial."),
+    ("password.special.invalid", "Le mot de passe doit contenir au moins un caractère spécial."),
+    ("password.choice.invalid", "Choix invalide, aucune action effectuée."),
+];

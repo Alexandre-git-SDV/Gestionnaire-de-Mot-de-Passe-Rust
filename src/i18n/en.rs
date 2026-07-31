@@ -1,0 +1,16 @@
+pub static TRANSLATIONS: &[(&str, &str)] = &[
+    ("condition.prompt", "Enter your password criteria"),
+    ("condition.option.min_length", "Password of at least 12 characters"),
+    ("condition.option.digit", "At least 1 digit"),
+    ("condition.option.special", "At least 1 special character"),
+    ("condition.option.all", "All of the previous criteria"),
+    ("condition.option.end", "End of criteria"),
+    ("password.prompt", "Enter your password"),
+    ("password.min_length.invalid", "The password must contain at least 12 characters."),
+    ("password.min_length.valid", "Password is valid for length."),
+    ("password.digit.valid", "The password contains at least one digit."),
+    ("password.digit.invalid", "The password must contain at least one digit."),
+    ("password.special.valid", "The password contains at least one special character."),
+    ("password.special.invalid", "The password must contain at least one special character."),
+    ("password.choice.invalid", "Invalid choice, no action taken."),
+];
