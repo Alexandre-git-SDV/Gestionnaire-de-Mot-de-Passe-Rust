@@ -1,8 +1,8 @@
 [package]
-name = "gestionnairemdp"
+name = "aegyx"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bcrypt = "0.17.0"
-rpassword = "7.4.0"
+bcrypt = "0.19.3"
+rpassword = "7.5.4"

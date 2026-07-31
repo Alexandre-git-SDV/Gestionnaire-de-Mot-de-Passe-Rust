@@ -1,0 +1,105 @@
+name: Bug Report
+description: Report a bug to help us improve the app
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in as much information as possible.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the bug.
+      placeholder: What went wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Run `cargo run`
+        2. Enter '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: Which OS were you running the app on?
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: rust_version
+    attributes:
+      label: Rust version
+      description: Output of `rustc --version`
+      placeholder: rustc 1.80.0 (051478957 2024-07-21)
+    validations:
+      required: true
+
+  - type: input
+    id: cargo_version
+    attributes:
+      label: Cargo version
+      description: Output of `cargo --version`
+      placeholder: cargo 1.80.0 (376290515 2024-07-16)
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App version / branch / commit
+      description: Which version, branch, or commit hash are you using?
+      placeholder: 1.0 / development / abc1234
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: |
+        Any other context that could help: logs, terminal output, or **screenshots/images**
+        (you can drag & drop or paste them directly into this field).
+      placeholder: Add any extra details or screenshots here.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to make sure this bug hasn't already been reported
+          required: true
