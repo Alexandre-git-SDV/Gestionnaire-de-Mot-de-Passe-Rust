@@ -11,12 +11,16 @@ name: rust-clippy analyze
 
 on:
   push:
-    branches: [ "development", "main" ]
+    branches: [ "development", "master" ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "development", "main" ]
+    branches: [ "development", "master" ]
   schedule:
     - cron: '0 5 * * 0'
+
+# Least privilege by default: the job below re-grants only what it needs.
+permissions:
+  contents: read
 
 jobs:
   rust-clippy-analyze:

@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: ["master" , "development"]
 
+# Least privilege: these jobs only need to read the code.
+permissions:
+  contents: read
+
 env:
   CARGO_TERM_COLOR: always
 
