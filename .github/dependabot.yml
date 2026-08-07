@@ -1,0 +1,41 @@
+version: 2
+updates:
+  # Rust dependencies (Cargo.toml / Cargo.lock)
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cron: '0 5 * * 0'
+      timezone: "Etc/UTC"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "[BOT] Rust Dependencies :"
+    labels:
+      - "dependencies"
+      - "rust"
+    groups:
+      # One PR for all non-breaking bumps, one PR per major bump
+      cargo-minor-and-patch:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
+
+  # GitHub Actions used by the workflows in .github/workflows/
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cron: '0 5 * * 0'
+      timezone: "Etc/UTC"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "[BOT] CI :"
+    labels:
+      - "dependencies"
+      - "ci"
+    groups:
+      github-actions:
+        applies-to: version-updates
+        patterns:
+          - "*"
